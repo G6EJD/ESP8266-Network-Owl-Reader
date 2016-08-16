@@ -52,8 +52,8 @@ Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
 #define YELLOW      0xFFE0
 #define WHITE       0xFFFF
 
-char ssid[] = "SKY6D12C_EXT"; // your network SSID (name)
-char pass[] = "WQSUBEPQ";     // your network password
+char ssid[] = "Your SSID here"; // your network SSID (name)
+char pass[] = "Your Password here";     // your network password
 
 IPAddress ipMulticast(224, 192, 32, 19);  // Set the IP Multicast IP address to be monitored
 unsigned int localPort = 22600;           // Set local port to listen for UDP packets on, Network Owl uses 22600
